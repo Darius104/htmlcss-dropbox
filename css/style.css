@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans',sans-serif;
-    
 }
 img{
     width: 100%;
@@ -253,3 +252,169 @@ a{
 }
 /* end colonne */
 
+/* ultima riga centrale */
+.mini-container{
+    width: 90%;
+    margin: auto;
+}
+.team{
+    border: 1px solid gray;
+    margin-top: 60px;
+}
+.team:first-child{
+    font-weight: bold;
+    padding: 15px 0;
+    text-align: center;
+
+}
+.enterprise{
+    border: 1px solid gray;
+    border-top: 0;
+}
+.mini-container{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.mini-container h2{
+    display: inline-block;
+}
+.mini-col-1{
+    float: left;
+    width: 70%;
+}
+.mini-col-1 h3{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.mini-col-2{
+    float: right;
+    width: 30%;
+}
+#ufficio-vendite{
+    width: 100%;
+    color: white;
+}
+
+/* RIGA PARTNER */
+.row-partner{
+    margin-top: 170px;
+}
+.col-img-partner{
+    width: 50%;
+    float: left;
+}
+.col-text-partner{
+    margin-left: 5%;
+    width: 45%;
+    float: left;
+}
+.col-text-partner p{
+    margin-bottom: 25px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.btn-partner{
+    background-color: white;
+    border: 1px solid gray;
+}
+#Dropbox-Business{
+    margin-top: 80px;
+}
+/* colonne con 2 righe */
+.row-dropbox-business-2{
+    margin-top: 150px;
+}
+.row-dropbox-business-1 h2{
+    font-size: 30px;
+}
+.row-dropbox-business-2 h2{
+    font-size: 30px;
+}
+.row-dropbox-business-1, .row-dropbox-business-2 p{
+    line-height: 25px;
+    font-weight: bold;
+}
+.first-col{
+    float: left;
+    width: 30%;
+}
+.second-col{
+    float: left;
+    width: 30%;
+    margin: 0 5%;
+}
+.third-col{
+    float: left;
+    width: 30%;
+}
+.team-Dropbox{
+    margin-top: 250px;
+}
+#span-clienti{
+    font-weight: bold;
+    color: #2678ff;
+    text-decoration: underline;
+    padding-left: 0;
+}
+/* loghi */
+.main-logo-row{
+    margin-top: 70px;
+}
+.logo-mini{
+    filter: invert(100%);
+    margin-top: 25%;
+    width: 150px;
+    height: 150px;
+}
+.main-col-1{
+    float: left;
+}
+.col-first-logo{
+    border: 10px solid #d0e9cd;
+    background-color: #a2d39b;
+    text-align: center;
+    width: 270px;
+    height: 270px;
+    float: left;
+}
+.col-second-logo{
+    background-color: #61082b;
+    text-align: center;
+    position: relative;
+    width: 270px;
+    height: 270px;
+    float: left;
+}
+.logo-mini-florida{
+    filter: invert(100%);
+    margin-top: 50%;
+    width: 150px;
+}
+.col-first-logo-florida{
+    background-color: #0093ce;
+    text-align: center;
+    width: 270px;
+    height: 270px;
+    float: left;
+}
+.col-second-logo-topps{
+    background-color: #ff1c1c;
+    text-align: center;
+    position: relative;
+    width: 270px;
+    height: 270px;
+    float: left;
+}
+.main-col-2{
+    float: left;
+    background-color: gray;
+    height: 540px;
+}
+.container-logo{
+    width: 90%;
+    margin: auto;
+}
+.main-col-3{
+    float: right;
+}
